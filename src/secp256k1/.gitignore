@@ -12,10 +12,10 @@ gen_context
 *.a
 !.gitignore
 
-#Makefile
+Makefile
 configure
 .libs/
-#Makefile.in
+Makefile.in
 aclocal.m4
 autom4te.cache/
 config.log
@@ -32,10 +32,10 @@ libtool
 src/libsecp256k1-config.h
 src/libsecp256k1-config.h.in
 src/ecmult_static_context.h
+src/stamp-h1
+libsecp256k1.pc
 m4/libtool.m4
 m4/ltoptions.m4
 m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
-src/stamp-h1
-libsecp256k1.pc
