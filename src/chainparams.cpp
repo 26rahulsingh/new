@@ -127,10 +127,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xbf;
-        pchMessageStart[1] = 0x0c;
-        pchMessageStart[2] = 0x6b;
-        pchMessageStart[3] = 0xbd;
+        pchMessageStart[0] = 0x1e;
+        pchMessageStart[1] = 0xb3;
+        pchMessageStart[2] = 0xc2;
+        pchMessageStart[3] = 0xd1;
         vAlertPubKey = ParseHex("043ebc6f1a2af1a7b4785fec640dace48e3203f093fd691a62c13fba25b020e6d19bbcc817b608e26ae99449eef7ed902c850d281be5e20f2aee7a6c21e868c5a0");
         nDefaultPort = 9999;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
@@ -263,10 +263,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f"); // 37900
 
-        pchMessageStart[0] = 0xce;
-        pchMessageStart[1] = 0xe2;
-        pchMessageStart[2] = 0xca;
-        pchMessageStart[3] = 0xff;
+        pchMessageStart[0] = 0xd3;
+        pchMessageStart[1] = 0x2c;
+        pchMessageStart[2] = 0xb4;
+        pchMessageStart[3] = 0x7e;
         vAlertPubKey = ParseHex("041629ebfb39f5893f68b31874929f2666ce3e4a3ae74bf34977530c9b87cf6acecec33cdcd97d428ece50cc56a7bb88181f143790cd824525f9680c2c92ad4588");
         nDefaultPort = 19999;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
@@ -376,10 +376,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
+        pchMessageStart[0] = 0xa2;
+        pchMessageStart[1] = 0xb1;
+        pchMessageStart[2] = 0xd6;
+        pchMessageStart[3] = 0x7f;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 0; // never delay GETHEADERS in regtests
         nDefaultPort = 19994;
