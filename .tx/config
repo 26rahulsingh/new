@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[wuazi.qt-translation-012x]
+file_filter = src/qt/locale/wuazi_<lang>.ts
+source_file = src/qt/locale/wuazi_en.ts
+source_lang = en
