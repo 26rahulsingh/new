@@ -12,10 +12,10 @@ gen_context
 *.a
 !.gitignore
 
-Makefile
+#Makefile
 configure
 .libs/
-Makefile.in
+#Makefile.in
 aclocal.m4
 autom4te.cache/
 config.log
@@ -25,7 +25,7 @@ config.status
 libtool
 .deps/
 .dirstamp
-build-aux/
+#build-aux/
 *.lo
 *.o
 *~
