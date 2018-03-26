@@ -143,10 +143,10 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
 
 
-        vSeeds.push_back(CDNSSeedData("wuazi.org", "dnsseed.wuazi.org"));
-        vSeeds.push_back(CDNSSeedData("wuazidot.io", "dnsseed.wuazidot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("wuazipay.io", "dnsseed.wuazipay.io"));
+        // vSeeds.push_back(CDNSSeedData("wuazi.org", "dnsseed.wuazi.org"));
+        // vSeeds.push_back(CDNSSeedData("wuazidot.io", "dnsseed.wuazidot.io"));
+        // vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
+        // vSeeds.push_back(CDNSSeedData("wuazipay.io", "dnsseed.wuazipay.io"));
 
         // Wuazi addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
@@ -280,8 +280,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("wuazidot.io",  "testnet-seed.wuazidot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
+        // vSeeds.push_back(CDNSSeedData("wuazidot.io",  "testnet-seed.wuazidot.io"));
+        // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         // Testnet Wuazi addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
