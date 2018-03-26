@@ -148,8 +148,8 @@ public:
         // vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         // vSeeds.push_back(CDNSSeedData("wuazipay.io", "dnsseed.wuazipay.io"));
 
-        // Wuazi addresses start with 'X'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
+        // Wuazi addresses start with 'W'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         // Wuazi script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
         // Wuazi private keys start with '7' or 'X'
@@ -263,8 +263,8 @@ public:
         // vSeeds.push_back(CDNSSeedData("wuazidot.io",  "testnet-seed.wuazidot.io"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
-        // Testnet Wuazi addresses start with 'y'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
+        // Testnet Wuazi addresses start with 'w'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,135);
         // Testnet Wuazi script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
@@ -386,8 +386,8 @@ public:
             0,
             0
         };
-        // Regtest Wuazi addresses start with 'y'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
+        // Regtest Wuazi addresses start with 'w'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,135);
         // Regtest Wuazi script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
