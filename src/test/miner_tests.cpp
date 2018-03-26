@@ -76,7 +76,7 @@ bool TestSequenceLocks(const CTransaction &tx, int flags)
 BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
 {
     const CChainParams& chainparams = Params(CBaseChainParams::MAIN);
-    CScript scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+    CScript scriptPubKey = CScript() << ParseHex("04324c49177fa71c0c233a6559df38edc82b728898fe8a63c3aa012a1818029457b8a063d98dbe8ef8ec939f71d569a805e1ea8ba2d4be21902bc28cc9ac9e7beb") << OP_CHECKSIG;
     CBlockTemplate *pblocktemplate;
     CMutableTransaction tx,tx2;
     CScript script;
