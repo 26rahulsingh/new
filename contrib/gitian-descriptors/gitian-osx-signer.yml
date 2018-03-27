@@ -8,7 +8,7 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/wuazipay/wuazi-detached-sigs.git"
+- "url": "https://github.com/26rahulsingh/wuazi-detached-sigs.git"
   "dir": "signature"
 files:
 - "wuazi-osx-unsigned.tar.gz"
