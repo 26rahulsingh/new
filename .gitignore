@@ -61,7 +61,7 @@ share/qt/Info.plist
 *.pyc
 *.o
 *.o-*
-*.patch
+#*.patch
 .wuazi
 *.a
 *.pb.cc
